@@ -5,7 +5,7 @@ import logging
 import logging.handlers
 
 def setup_papertrail_logging():
-    papertrail_handler = logging.handlers.SysLogHandler(address=('logs5.papertrailapp.com', 20304))
+    papertrail_handler = logging.handlers.SysLogHandler(address=('logs4.papertrailapp.com', 43181))
     formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s', datefmt='%b %d %H:%M:%S')
     papertrail_handler.setFormatter(formatter)
     logger = logging.getLogger()
