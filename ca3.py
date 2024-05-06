@@ -30,7 +30,7 @@ st.sidebar.markdown("""
 Stichwörter: Text.
 
 Zum Beispiel:
-- **Präventive Maßnahmen diskutieren**: Ich leide in meiner Familie an Bluthochdruck und hätte gerne Ratschläge zur Vorbeugung.
+- **Maßnahme**: Ich leide in meiner Familie an Bluthochdruck und hätte gerne Ratschläge zur Vorbeugung.
 """, unsafe_allow_html=True)
 
 st.sidebar.header("Persona: Jim")
